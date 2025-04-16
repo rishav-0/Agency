@@ -8,8 +8,8 @@ function SectionOne() {
     <div id='Home' className="h-screen container mx-auto pt-10 lg:px-20 flex items-center">
       <div className="w-full">
 
-        <div className=' flex justify-between flex-wrap mb-16'>
-          <div className="w-1/2">
+        <div className=' grid grid-cols-1 sm:grid-cols-2 mb-16'>
+          <div className="">
               <p className="text-5xl font-bold nato">Best Digital</p>
               <p className="text-5xl font-bold nato">Agency Whole</p>
               <p className="text-5xl font-bold mb-6 nato">Online Today.</p>
@@ -19,8 +19,8 @@ function SectionOne() {
                   <Button variant='text' className='flex gap-2 items-center rounded-none py-0 whitespace-nowrap' >How it Works <i class="fa-regular text-2xl fa-circle-play"></i></Button>
               </div>
           </div>
-          <div className='hidden lg:block'>
-              <img src={hero} alt="" />
+          <div className=' flex items-center justify-center'>
+              <img className='hidden  lg:block' src={hero} alt="" />
           </div>
         </div>
         <p className="text-sm mb-4 text-center text-[#999999]">Over <strong className='text-black'>32k+</strong> software businesses growing with D-agency</p>
