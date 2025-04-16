@@ -5,7 +5,7 @@ import { Button } from '@material-tailwind/react'
 
 function SectionThree() {
   return (
-    <div className='snap-start h-screen py-10 container mx-auto lg:px-20 space-y-8 '>
+    <div id='Services' className='snap-start h-screen py-10 container mx-auto lg:px-20 space-y-8 '>
         <p className="text-xs font-medium">Services</p>
         <p className="text-2xl font-semibold">Our Included <br /> Services</p>
         <div className="grid sm:grid-cols-2 gap-8 md:grid-cols-3">

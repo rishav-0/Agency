@@ -2,7 +2,7 @@ import React from 'react'
 
 function SectionTwo() {
   return (
-    <div className="snap-start h-screen bg-[#fffcf1] py-10">
+    <div id='About' className="h-screen bg-[#fffcf1] py-10 flex items-center">
         <div className='  container mx-auto lg:px-20'>
             <p className="text-sm mb-4">About Us</p>
             <p className="text-3xl capitalize font-bold mb-8 nato">We are here to make your website <br /> look more elegant and stylish! </p>
